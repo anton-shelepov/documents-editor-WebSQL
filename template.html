@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Документы</title> 
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+
+<body>
+    <div id="main">
+        <div id="content">
+            <div class="create_new_document">
+                <div id="title">Создание нового документа</div><br> 
+                <div id="document_number">
+                    <span>Номер документа</span>
+                    <input id="number_input"></input>
+                </div>
+                <div id="direction">
+                    <span>Дирекция</span>
+                    <input id="direction_input"></input>
+                </div>
+                <div id="subdivision">
+                    <span>Подразделение</span>
+                    <input id="subdivision_input"></input>
+                </div>
+                <div id="user_last_name">
+                    <span>Фамилия</span>
+                    <input id="last_name_input"></input>
+                </div>
+                <div type="button" id="insert" class="button">Создать документ</div>
+            </div> 
+        </div>
+        <hr>
+        <div class="table">
+            <div class="table__buttons">
+                <div type="button" id="create" class="button short create_button">Создать таблицу</div>
+                <div type="button" id="remove" class="button short delete_button">Удалить таблицу</div>
+                <div type="button" id="list" class="button update_button">Запросить все документы</div>
+            </div>
+            <table id="itemlist">
+                <!-- Заполнение таблицы JQuery -->
+            </table>
+        </div>
+    </div>
+</body>
+
+<script src="jquery/jquery.js"></script>
+<script src="script.js"></script>
+
+</html>

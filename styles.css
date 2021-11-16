@@ -1,0 +1,157 @@
+#main {
+    width: 1000px; 
+    margin: auto;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 2px 5px 25px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 10px; 
+}
+
+#content { 
+    font-size: 24px; 
+    width: 500px;
+    margin-left: 230px;
+    background-color: #d8e6f3;
+    padding: 20px;
+    border-radius: 30px; 
+    box-shadow: 2px 5px 25px -3px rgba(68, 68, 68, 0.25);
+}
+
+#title {
+    font-size: 30px;
+    font-weight: 700; 
+    border-radius: 10px; 
+    text-align: center; 
+}
+
+#document_number,
+#direction,
+#subdivision,
+#user_last_name {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+
+#number_input,
+#direction_input,
+#subdivision_input,
+#last_name_input {
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #b8d0e6;
+    border-radius: 5px;
+    width: 270px;
+    margin-right: 15px;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.button {
+    background-color: #afcde7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+    width: 435px;
+}
+
+.button:hover {
+    background-color: #474747;
+}
+
+.delete_button {
+    background-color: #d36464;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.delete_button:hover {
+    background-color: #9c3232;
+}
+
+.create_button {
+    margin-top: 0px;
+    background-color: #66d482;
+    padding: 10px;
+}
+
+.create_button:hover {
+    background-color: #2b8b43;
+}
+
+.update_button {
+    background-color: #717bdd;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 480px;
+}
+
+.update_button:hover {
+    background-color: #353e92;
+}
+
+.short {
+    width: 225px;
+}
+
+hr {
+    margin: 30px;
+}
+
+/* TABLE STYLE */
+
+table {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+}
+th,
+td:first-child {
+    background: #afcde7;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 1000;
+}
+th,
+td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+}
+td {
+    background: #d8e6f3;
+}
+
+
+.table_btn {
+    background-color: #e66d6d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none; 
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 500;
+    width: 50px;
+}
+
+.table_btn:hover {
+    background-color: #d35858;
+}
